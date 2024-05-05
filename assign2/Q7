@@ -1,0 +1,41 @@
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise$ cd structure
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure$ mkdir one
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure$ ls
+one
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure$ cd one
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one$ touch 1.txt 11.txt 111.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one$ ls
+111.txt  11.txt  1.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one$ mkdir two
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one$ ls
+111.txt  11.txt  1.txt  two
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one$ cd two
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two$ touch 2.txt 22.txt 222.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two$ ls
+222.txt  22.txt  2.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two$ mkdir three
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two$ ls
+222.txt  22.txt  2.txt  three
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two$ cd three
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ ls
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ touch 3.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ touch 3.txt 33.txt 333.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ ls
+333.txt  33.txt  3.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ mkdir four
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ ls
+333.txt  33.txt  3.txt  four
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three$ cd four
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four$ touch 4.txt 44.txt 444.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four$ ls
+444.txt  44.txt  4.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four$ mkdir five
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four$ ls
+444.txt  44.txt  4.txt  five
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four$ cd five
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four/five$ ls
+555.txt  55.txt  5.txt
+sunbeam@sunbeam-Vostro-3580:~/Desktop/my_practise/eos_practise/structure/one/two/three/four/five$ cd ~
+sunbeam@sunbeam-Vostro-3580:~$ 
+
