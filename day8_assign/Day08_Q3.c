@@ -1,3 +1,5 @@
+// Q3. Find max number of child processes that can be created on Linux using C program? Hint: use fork() in inﬁnite loop (wisely).
+
 #include<stdio.h>
 #include<unistd.h>
 #include<sys/wait.h>
@@ -8,7 +10,7 @@ int main() {
     while(1) {
       ret = fork();
       if(ret == 0) {
-          printf("Hello\n");
+          printf("Hiii\n");
           _exit(1);
       }
       else if(ret == -1)
