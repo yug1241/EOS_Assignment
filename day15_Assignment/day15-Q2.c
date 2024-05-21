@@ -1,3 +1,5 @@
+/*Q2. Create a thread to sort given array of "n" integers using bubble sort. Main thread should print the result after sorting is completed. */
+
 #include<stdio.h>
 #include<unistd.h>
 #include<pthread.h>
@@ -32,7 +34,7 @@ void* bubble_sort(void *param)
 
 int main()
 {
-	int arr1[]={45,89,75,56,74,23,0,95,156,25};
+	int arr1[]={85,99,47,73,19,22,80,15,46,66};
 	int ret;
 	int size1 = (sizeof(arr1)/sizeof(arr1[0]));
 	
