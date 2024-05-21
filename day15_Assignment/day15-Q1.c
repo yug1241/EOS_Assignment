@@ -4,34 +4,37 @@
 #include <unistd.h>
 #include <pthread.h>
 
-	void selection_sort(short arr[], int length){
-		for(int i = 0 ; i < length - 1 ; i++)
-		{
-			for(int j = i + 1 ; j < length ; j++)
-			{ 
-				if(arr[i] > arr[j]) 
-				{
-					int temp = arr[i];
-					arr[i] = arr[j];
-					arr[j] = temp;
-				}
+void selection_sort(int arr[], int length)
+{
+	for(int i = 0 ; i < length - 1 ; i++)
+	{
+		for(int j = i + 1 ; j < length ; j++)
+		{ 
+			if(arr[i] > arr[j]) 
+			{
+				int temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
 			}
-
 		}
+
+	}
 }
 
 // step 1: implement thread function
 void* sort_arr(void *param) {
 	int *arr = (int*)param;
 	// code to sort array
-		void selection_sort(short arr[], int length);
+	int length = 10;              // Length of the array
+	selection_sort(arr, length);  // Call the selection sort function
+
 	return NULL;
 }
-//void selection_sort(short arr[], int length);
+
 int main() 
 {
 	int ret;
-	int arr1[10] = {9, 4, 2, 7, 5, 8, 1, 3, 6, 0};
+	int arr1[10] = {19, 64, 24, 87, 99, 88, 12, 36, 69, 90};
 
 
 
